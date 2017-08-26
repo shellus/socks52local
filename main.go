@@ -8,7 +8,6 @@ import (
 	"github.com/gamexg/proxyclient"
 	"flag"
 	"strings"
-	"crypto/tls"
 )
 
 type Tunnel struct {
