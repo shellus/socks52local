@@ -23,7 +23,6 @@ var (
 )
 
 func main() {
-	tls.Server()
 	flag.StringVar(&socksAddr, "x", "", `
  参数格式：允许使用 ?参数名1=参数值1&参数名2=参数值2指定参数
  例如：https://123.123.123.123:8088?insecureskipverify=true
